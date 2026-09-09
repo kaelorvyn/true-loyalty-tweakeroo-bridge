@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "trueloyalty-tweakeroo-bridge",
+  "version": "${version}",
+  "name": "True Loyalty Tweakeroo Refill Bridge",
+  "description": "真·忠诚三叉戟碎裂时调用 Tweakeroo 自身的 Hand Restock 补货",
+  "authors": [
+    "Blood & Soil"
+  ],
+  "license": "MIT",
+  "environment": "client",
+  "mixins": [
+    "trueloyalty-bridge.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": ">=1.21.11",
+    "tweakeroo": "*",
+    "malilib": "*",
+    "java": ">=21"
+  }
+}
